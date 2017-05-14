@@ -9,17 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var FooterComponent = (function () {
-    function FooterComponent() {
+var LeftComponent = (function () {
+    function LeftComponent() {
     }
-    FooterComponent = __decorate([
+    LeftComponent = __decorate([
         core_1.Component({
-            selector: 'app-footer',
-            templateUrl: 'app/common/footer.component.html'
+            selector: 'app-left-section',
+            template: "\n    <div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4\">\n        <ul class=\"left-list\">\n            <li>item $</li>\n            <li>item $</li>\n            <li>item $</li>\n        </ul>\n    </div>\n    ",
+            styles: ["\n        .left-list{\n            border: 1px solid red;\n            height: 300px;\n        }\n    "]
         }), 
         __metadata('design:paramtypes', [])
-    ], FooterComponent);
-    return FooterComponent;
+    ], LeftComponent);
+    return LeftComponent;
 }());
-exports.FooterComponent = FooterComponent;
-//# sourceMappingURL=footer.component.js.map
+exports.LeftComponent = LeftComponent;
+//# sourceMappingURL=left.component.js.map

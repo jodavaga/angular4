@@ -9,17 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var FooterComponent = (function () {
-    function FooterComponent() {
+var RightComponent = (function () {
+    function RightComponent() {
     }
-    FooterComponent = __decorate([
+    RightComponent = __decorate([
         core_1.Component({
-            selector: 'app-footer',
-            templateUrl: 'app/common/footer.component.html'
+            selector: 'app-right-section',
+            template: "\n   <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\">\n   \n       <p class=\"right-paragraph\">Right Component</div>\n    ",
+            styleUrls: ['app/common/right.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], FooterComponent);
-    return FooterComponent;
+    ], RightComponent);
+    return RightComponent;
 }());
-exports.FooterComponent = FooterComponent;
-//# sourceMappingURL=footer.component.js.map
+exports.RightComponent = RightComponent;
+//# sourceMappingURL=right.component.js.map
